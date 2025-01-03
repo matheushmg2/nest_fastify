@@ -11,18 +11,18 @@ export class UserEntity {
     }
 
     get name() {
-        return this.props.name
+        return this.props.name;
     }
 
     get email() {
-        return this.props.email
+        return this.props.email;
     }
 
     get password() {
-        return this.props.password
+        return this.props.password;
     }
 
     get createdAt() {
-        return this.props.createdAt
+        return this.props.createdAt;
     }
 }
